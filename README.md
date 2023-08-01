@@ -14,5 +14,3 @@ This repo contains a simple POC demonstrating the alETH attack. `remove_liquidit
 
 In order to run the POC, you must run it at a block earlier than the attack occured, for example:
 `forge test --fork-url $RPC_URL --fork-block-number 17806760`
-
-For the time being, the code is not published in order for whitehats to do their work. Once I get the go ahead the code will be published :) If you are interested in the meantime, I suggest you try to write your own! It's a very simple attack.
